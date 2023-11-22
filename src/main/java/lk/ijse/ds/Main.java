@@ -24,5 +24,9 @@ public class Main {
         System.out.println("Pop : "+stack.pop());
         System.out.println("Pop : "+stack.pop());
 
+        stack.printStack();
+
+        stack.push(100);
+        stack.printStack();
     }
 }
