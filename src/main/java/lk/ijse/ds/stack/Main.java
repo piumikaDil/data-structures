@@ -1,4 +1,4 @@
-package lk.ijse.ds;
+package lk.ijse.ds.stack;
 //Author : Piumika Dilshan
 //Connect : piumikadil@gmail.com
 
@@ -28,8 +28,6 @@ public class Main {
 
         stack.push(100);
         stack.printStack();
-
-
 
         stack.push(200);
         stack.printStack();

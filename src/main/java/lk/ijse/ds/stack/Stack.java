@@ -1,4 +1,4 @@
-package lk.ijse.ds;
+package lk.ijse.ds.stack;
 //Author : Piumika Dilshan
 //Connect : piumikadil@gmail.com
 
@@ -51,11 +51,10 @@ public class Stack {
     }
 
     public int size() {
-        return top+1;
+        return top + 1;
 
     }
-
-    public void clear(){
-        top=-1;
+    public void clear() {
+        top = -1;
     }
 }
