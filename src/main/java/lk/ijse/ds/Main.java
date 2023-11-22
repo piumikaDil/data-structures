@@ -6,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Stack stack = new Stack(5);
 
-        stack.pop();
-
         stack.push(10);
         stack.push(20);
         stack.push(30);
@@ -28,6 +26,8 @@ public class Main {
 
         stack.printStack();
 
+
+
         stack.push(100);
         stack.printStack();
 
@@ -35,6 +35,7 @@ public class Main {
         stack.printStack();
         stack.push(300);
         stack.printStack();
+        System.out.println("size : "+stack.size());
 
     }
 }

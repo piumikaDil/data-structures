@@ -49,4 +49,9 @@ public class Stack {
         }
         System.out.println("\b\b]");
     }
+
+    public int size() {
+        return top+1;
+
+    }
 }
