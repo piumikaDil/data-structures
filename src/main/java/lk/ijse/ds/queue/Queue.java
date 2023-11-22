@@ -14,12 +14,19 @@ public class Queue {
     }
 
     public void enQueue(int data) {
+        if (front == -1){
+            front=0;
+        }
         elementData[++back] = data;
+    }
+
+    public int deQueue() {
+        return elementData[front++];
     }
 
     public void printStack() {
         System.out.print("[");
-        for (int i = 0; i <= back; i++) {
+        for (int i = front; i <= back; i++) {
             System.out.print(elementData[i] + ", ");
         }
         System.out.println("\b\b]");

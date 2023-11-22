@@ -8,6 +8,13 @@ public class Main {
 
         queue.enQueue(10);
         queue.enQueue(20);
+        queue.enQueue(30);
+        queue.printStack();
+
+        queue.deQueue();
+        queue.printStack();
+
+        queue.deQueue();
         queue.printStack();
 
     }
