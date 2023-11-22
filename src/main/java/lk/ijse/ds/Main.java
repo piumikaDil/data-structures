@@ -21,5 +21,8 @@ public class Main {
         int peak2 = stack.peak();
         System.out.println("peak : "+peak2);
 
+        System.out.println("Pop : "+stack.pop());
+        System.out.println("Pop : "+stack.pop());
+
     }
 }

@@ -18,4 +18,8 @@ public class Stack {
     public int peak() {//top
         return elementData[top];
     }
+
+    public int pop(){
+        return  elementData[top--];
+    }
 }
