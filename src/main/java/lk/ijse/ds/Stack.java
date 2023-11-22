@@ -54,4 +54,8 @@ public class Stack {
         return top+1;
 
     }
+
+    public void clear(){
+        top=-1;
+    }
 }

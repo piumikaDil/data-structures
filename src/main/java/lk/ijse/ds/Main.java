@@ -26,16 +26,18 @@ public class Main {
 
         stack.printStack();
 
-
-
         stack.push(100);
         stack.printStack();
+
+
 
         stack.push(200);
         stack.printStack();
         stack.push(300);
         stack.printStack();
         System.out.println("size : "+stack.size());
+
+        stack.clear();
 
     }
 }
